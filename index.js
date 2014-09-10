@@ -21,7 +21,7 @@ function measureWidth (str, current) {
     current = document.querySelector(current)
   }
 
-  currentStyle = window.getComputedStyle(current, null)
+  currentStyle = current ? window.getComputedStyle(current, null) : null
 
   if (currentStyle) {
     var toCopy = [
