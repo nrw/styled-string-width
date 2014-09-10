@@ -1,7 +1,7 @@
 {
   "name": "styled-string-width",
   "description": "measure the width a string will be when rendered in the dom",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "repository": {
     "url": "nrw/styled-string-width"
   },
@@ -14,6 +14,5 @@
   "dependencies": {
     "tape": "2.x.x"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
