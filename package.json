@@ -1,0 +1,19 @@
+{
+  "name": "styled-string-width",
+  "description": "measure the width a string will be when rendered in the dom",
+  "version": "0.0.0",
+  "repository": {
+    "url": "nrw/styled-string-width"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "tape test/*.js",
+    "watch": "nodemon -q -x 'tape test/*.js' | tap-colorize"
+  },
+  "dependencies": {
+    "tape": "2.x.x"
+  },
+  "devDependencies": {
+  }
+}
