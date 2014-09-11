@@ -41,7 +41,7 @@ function measureWidth (str, current) {
 
   document.body.appendChild(span)
   width = span.offsetWidth
-  span.remove()
+  document.body.removeChild(span)
 
   return width
 }
